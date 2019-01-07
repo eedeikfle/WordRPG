@@ -54,7 +54,7 @@ class Player(Character):
         self.pos_y = 1
 
     def move(self, _dir):
-        directions = {"North":(0, -1), "South":(0, 1), "East":(1, 0), "West":(-1, 0)}
+        directions = {"North": (0, -1), "South": (0, 1), "East": (1, 0), "West": (-1, 0)}
         delta_x, delta_y = directions[_dir]
         new_x, new_y = self.pos_x + delta_x, self.pos_y + delta_y
         if WorldMap.access_information(new_x, new_y, "Crossable"):
