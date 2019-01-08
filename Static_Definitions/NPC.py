@@ -1,5 +1,5 @@
 # This module will handle all Merchants; Also can handle any other type of NPC we add
-class ArmorMerchant:
+class Merchant:
     def __init__(self, name):
         self.name = name
         self.for_sell = []
