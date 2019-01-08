@@ -35,7 +35,7 @@ class Character:
 class Player(Character):
     def __init__(self, name, _class, max_health, melee_attack, magic_attack,
                  max_mana, max_stamina, defense, luck, gender, gold=0, xp=0,
-                 equipped_weapon= None, equipped_armor=Items.farm_clothing):
+                 equipped_weapon=None, equipped_armor=Items.farm_clothing):
         super().__init__(name, max_health, melee_attack, magic_attack,
                          max_mana, max_stamina, defense, luck)
         self._class = _class
@@ -59,6 +59,7 @@ class Player(Character):
         new_x, new_y = self.pos_x + delta_x, self.pos_y + delta_y
         if WorldMap.access_information(new_x, new_y, "Crossable"):
             self.pos_x, self.pos_y = new_x, new_y
+
         else:
             clear()
             print("You cannot cross here:")
@@ -94,3 +95,5 @@ class Player(Character):
         print("Spawns: " + str(info["Spawns"]))
         print("Info: " + str(info["Info"]))
         pause()
+
+
