@@ -10,7 +10,7 @@ or for any thing else!
 We have more then enough people working on the project now.  You may join the [discord](https://discord.gg/8bkzqfm) and be apart of are awesome community.
 
 ## Version
-* Python 3.7
+* Python 3.7 required due to use of f-strings
 
 # About This Project
 I have Lot's of plans for this game but it is a labor of love so I may get board at some point and quit, but that isn't the case as of yet. In the game you can choose to be a Mage, Warrior, Archer or an Assassin. There will be weapons specific to a playing class and also weapons that two or all classes can use. The player will be able to level up and sell/buy item from NPC.

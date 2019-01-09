@@ -7,7 +7,7 @@ me know.
 
 CBruce:
 
-    Working on main game states for FSM
+    Working on terminal-style GUI using ascimatics
 
 BJTMastermind:
 

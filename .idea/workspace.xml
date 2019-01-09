@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20b8aa1f-de5a-40fe-bec8-48fde2e09307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/format_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/frame.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/frame_solid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/scroll.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/splash.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/story_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/screens/title.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/gui/text/test_story.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Combat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Crafting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/FSM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Load_Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Main_Menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/New_Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/Shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/States.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordRPG/states/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_fsm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordRPG/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/screens.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/screens.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1625913736">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="db" value="4" />
+          <entry key="db-journal" value="1" />
+          <entry key="map" value="6" />
+          <entry key="mpf" value="3" />
+          <entry key="py" value="102" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="db" value="1" />
+          <entry key="dummy" value="5" />
+          <entry key="map" value="223" />
+          <entry key="mpf" value="115" />
+          <entry key="py" value="19239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="344" />
+          <entry key="Python" value="19239" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WordRPG" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gui/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map_Gen/ParseMap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/screens.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map_Gen/Biome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map_Gen/World.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-573">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#199#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>subbiome</find>
+      <find>pname</find>
+      <find>char_creation</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Worldmap.db" />
+        <option value="$PROJECT_DIR$/Map_Gen/Map.mpf" />
+        <option value="$PROJECT_DIR$/Map_Gen/Map.py" />
+        <option value="$PROJECT_DIR$/Map_Gen/Engine.py" />
+        <option value="$PROJECT_DIR$/ChangeLog.py" />
+        <option value="$PROJECT_DIR$/Map_Gen/PopulateMap.py" />
+        <option value="$PROJECT_DIR$/script/Items.py" />
+        <option value="$PROJECT_DIR$/script/Map.py" />
+        <option value="$PROJECT_DIR$/Mechanics/ui_mechanics.py" />
+        <option value="$PROJECT_DIR$/Map_Gen/Biome.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/script/Combat.py" />
+        <option value="$PROJECT_DIR$/Static_Definitions/NPC.py" />
+        <option value="$PROJECT_DIR$/Map_Gen/ParseMap.py" />
+        <option value="$PROJECT_DIR$/Static_Definitions/Mobs.py" />
+        <option value="$PROJECT_DIR$/script/Screen.py" />
+        <option value="$PROJECT_DIR$/Map_Gen/World.map" />
+        <option value="$PROJECT_DIR$/script/Character.py" />
+        <option value="$PROJECT_DIR$/Mechanics/combat_mechanics.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="457" />
+    <option name="y" value="52" />
+    <option name="width" value="1316" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="Map_Gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="Mechanics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordRPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordRPG" type="462c0819:PsiDirectoryNode" />
+              <item name="Static_Definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="player&#9;null&#9;null" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorell Croft\Documents\GitHub\WordRPG\Mechanics" />
+      <recent name="C:\Users\Jorell Croft\Documents\GitHub\WordRPG\script" />
+      <recent name="C:\Users\Jorell Croft\Documents\GitHub\WordRPG\Static_Definitions" />
+      <recent name="C:\Users\Jorell Croft\Documents\GitHub\WordRPG\Map_Gen" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Biome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordRPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Map_Gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Map_Gen/Biome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Combat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordRPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/Combat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
+      <module name="WordRPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordRPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Map_Gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Map_Gen/Map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ParseMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WordRPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Map_Gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Map_Gen/ParseMap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Map" />
+      <item itemvalue="Python.ParseMap" />
+      <item itemvalue="Python.Biome" />
+      <item itemvalue="Python.Combat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Combat" />
+        <item itemvalue="Python.Biome" />
+        <item itemvalue="Python.ParseMap" />
+        <item itemvalue="Python.Map" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Jorell Croft\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20b8aa1f-de5a-40fe-bec8-48fde2e09307" name="Default Changelist" comment="" />
+      <created>1545089560706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545089560706</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="305" y="35" width="877" height="800" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957265" visible="true" weight="0.25714287" />
+      <window_info id="Structure" order="1" sideWeight="0.50427353" side_tool="true" weight="0.24763194" />
+      <window_info id="Favorites" order="2" sideWeight="0.50328225" side_tool="true" weight="0.15534805" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6260997" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32928678" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49830222" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.36247876" side_tool="true" weight="0.5" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32991204" />
+      <window_info anchor="bottom" x="14" y="206" width="1178" height="342" id="Run" order="10" sideWeight="0.6375212" weight="0.69648093" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Worldmap.db-journal" />
+    <entry file="file://$PROJECT_DIR$/Save_Load/Load.py" />
+    <entry file="file://$PROJECT_DIR$/ToDoList.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/Map.mpf" />
+    <entry file="file://$PROJECT_DIR$/Map_Gen/Map.py" />
+    <entry file="file://$PROJECT_DIR$/Map_Gen/TestFile.py" />
+    <entry file="file://$PROJECT_DIR$/Map_Gen/Engine.py" />
+    <entry file="file://$PROJECT_DIR$/ChangeLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Story.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/InfoDics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/PopulateMap.py" />
+    <entry file="file://$PROJECT_DIR$/Map_Gen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Map.py" />
+    <entry file="file://$PROJECT_DIR$/Save_Load/Save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mechanics/core_mechanics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mechanics/ui_mechanics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Combat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="13" />
+          <folding>
+            <element signature="e#97#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Worldmap.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1491">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/SubBiome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Static_Definitions/NPC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Static_Definitions/Mobs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/World.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-573">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#199#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/screens.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="164" lean-forward="true" selection-start-line="99" selection-end-line="164" />
+          <folding>
+            <element signature="e#18#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/ParseMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map_Gen/Biome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mechanics/combat_mechanics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
