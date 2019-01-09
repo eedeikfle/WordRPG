@@ -19,6 +19,7 @@ class Character:
         self.magic_damage = magic_attack
         self.max_mana = max_mana
         self.max_stamina = max_stamina
+        self.stamina = max_stamina
         self.defense = defense
         self.luck = luck
 
@@ -109,6 +110,7 @@ class Mob(Character):
         self.item_drop = item_drop
 
 
+
 Bandit = Mob(
         name="Bandit",
         max_health=100,
@@ -136,7 +138,27 @@ Wolf = Mob(
         exp_drop=10,
         item_drop="Flesh"
     )
+Zombie = Mob(
+        name="Zombie",
+        max_health=100,
+        melee_attack=10,
+        magic_attack=0,
+        max_mana=0,
+        max_stamina=20,
+        defense=15,
+        mob_class="Wild Animal",
+        gold_drop=10,
+        exp_drop=10,
+        item_drop="Flesh"
+    )
+
+Mobs = {
+    "Bandit": Bandit,
+    "Wolf": Wolf,
+    "Zombie": Zombie
+}
 
 
 def random_mob(pos):
-    return random.choice(WorldMap.access_information(pos[0], pos[1], "Spawns"))
+    mob_string = random.choice(WorldMap.access_information(pos[0], pos[1], "Spawns"))
+    return Mobs[mob_string]
