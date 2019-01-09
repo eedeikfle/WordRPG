@@ -4,6 +4,7 @@ import random
 from script import Items
 from Mechanics.ui_mechanics import *
 from Map_Gen.ParseMap import WorldMap
+from Mechanics.combat_mechanics import check_for_encounter
 
 
 class Character:
@@ -59,7 +60,7 @@ class Player(Character):
         new_x, new_y = self.pos_x + delta_x, self.pos_y + delta_y
         if WorldMap.access_information(new_x, new_y, "Crossable"):
             self.pos_x, self.pos_y = new_x, new_y
-
+            check_for_encounter(self, pos=(new_x, new_y))
         else:
             clear()
             print("You cannot cross here:")
@@ -97,3 +98,45 @@ class Player(Character):
         pause()
 
 
+class Mob(Character):
+    def __init__(self, name, max_health, melee_attack, magic_attack, max_mana, max_stamina,
+                 defense, mob_class, gold_drop, exp_drop, item_drop):
+        super().__init__(self, name, max_health, melee_attack, magic_attack,
+                         max_mana, max_stamina, defense)
+        self.mob_class = mob_class
+        self.gold_drop = gold_drop
+        self.xp_drop = exp_drop
+        self.item_drop = item_drop
+
+
+Bandit = Mob(
+        name="Bandit",
+        max_health=100,
+        melee_attack=10,
+        magic_attack=0,
+        max_mana=0,
+        max_stamina=20,
+        defense=15,
+        mob_class="Human",
+        gold_drop=10,
+        exp_drop=10,
+        item_drop="Flesh"
+    )
+
+Wolf = Mob(
+        name="Wolf",
+        max_health=100,
+        melee_attack=10,
+        magic_attack=0,
+        max_mana=0,
+        max_stamina=20,
+        defense=15,
+        mob_class="Wild Animal",
+        gold_drop=10,
+        exp_drop=10,
+        item_drop="Flesh"
+    )
+
+
+def random_mob(pos):
+    return random.choice(WorldMap.access_information(pos[0], pos[1], "Spawns"))
